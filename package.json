@@ -1,0 +1,33 @@
+{
+  "name": "satori-server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A Satori REST server which tasks JSX as input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnd/satori-server.git"
+  },
+  "author": "shawnd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawnd/satori-server/issues"
+  },
+  "homepage": "https://github.com/shawnd/satori-server#readme",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.4.1",
+    "@resvg/resvg-wasm": "^2.4.1",
+    "express": "^4.18.2",
+    "satori": "^0.4.0",
+    "satori-html": "^0.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
