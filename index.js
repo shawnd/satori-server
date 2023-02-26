@@ -16,19 +16,19 @@ const options = {
     fonts: [
         {
             name: "Roboto",
-            data: await readFile("./Quicksand-Bold.ttf"),
+            data: await readFile("./fonts/Quicksand-Bold.ttf"),
             weight: 900,
             style: "normal",
         },
         {
             name: "Roboto",
-            data: await readFile("./Quicksand-SemiBold.ttf"),
+            data: await readFile("./fonts/Quicksand-SemiBold.ttf"),
             weight: 600,
             style: "normal",
         },
         {
             name: "Roboto",
-            data: await readFile("./RobotoMono-Light.ttf"),
+            data: await readFile("./fonts/RobotoMono-Light.ttf"),
             weight: 100,
             style: "normal",
         },
